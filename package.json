@@ -1,0 +1,27 @@
+{
+  "name": "chat-node-socket",
+  "version": "1.0.0",
+  "description": "Pequeño chat utilizando Node & Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taviora/chat-Socket.io-Node.git"
+  },
+  "author": "Gustavo Solano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taviora/chat-Socket.io-Node/issues"
+  },
+  "homepage": "https://github.com/Taviora/chat-Socket.io-Node#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
